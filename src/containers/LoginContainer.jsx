@@ -22,7 +22,7 @@ const LoginPage = ({ history }) => {
 
   const login = () => {
     console.log(account);
-    const apiEndPoint = `http://localhost:4000/user/login`;
+    const apiEndPoint = `http://18.183.76.111:4000/user/login`;
     const config = {
       headers: {
         'Content-Type': 'application/json',
